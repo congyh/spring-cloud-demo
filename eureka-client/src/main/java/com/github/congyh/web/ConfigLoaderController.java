@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author <a href='mailto:yihao.cong@outlook.com'>Cong Yihao</a>
  */
-@RefreshScope
+@RefreshScope // 每次访问都会创建一个新实例, 适合用于更新配置信息.
 @RestController
 public class ConfigLoaderController {
 
