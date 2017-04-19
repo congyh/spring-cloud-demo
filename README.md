@@ -22,3 +22,10 @@
    ```
 1. RabbitMQ为所有连接到它的服务提供一个/bus/refresh接口, 从Config Server获取最新的配置信息.
 1. Ribbon启动, 通过Ribbon的带有负载均衡的RestTemplate消耗前面Eureka Client提供的服务, 可以通过查看同一服务下不同Eureka Client实例的日志来确认负载均衡生效; Feign是对Ribbon的一层封装
+
+
+TODO
+
+- Hystrix Dashboard不好用.
+- turbine不好用.
+- feign与Hystrix结合不好用.
