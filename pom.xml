@@ -10,6 +10,7 @@
 
 	<modules>
 		<module>eureka-server</module>
+		<module>config-repo</module>
 	</modules>
 
 </project>
