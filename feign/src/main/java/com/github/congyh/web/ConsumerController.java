@@ -16,7 +16,7 @@ public class ConsumerController {
     private ConsumerServiceThroughEurekaServer serviceProvider;
 
     @GetMapping(value = "/add")
-    Integer add(@RequestParam(value = "a") Integer a, @RequestParam(value = "b") Integer b) {
+    Integer add(@RequestParam("a") Integer a, @RequestParam("b") Integer b) {
         return serviceProvider.add(a, b);
     }
 }
