@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConsumerController {
 
     @Autowired
+//    @Qualifier("consumerServiceThroughEurekaServer")
     private ConsumerServiceThroughEurekaServer serviceProvider;
 
     @GetMapping(value = "/add")
