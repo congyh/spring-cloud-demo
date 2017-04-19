@@ -5,7 +5,7 @@
 1. Config Server
 1. Zuul
 1. Eureka Server
-1. Eureka Client
+1. Eureka Client(建议启动多个实例)
 1. Ribbon, Feign
 
 原理:
