@@ -1,0 +1,8 @@
+kafka:
+  image: spotify/kafka
+  ports:
+    - "2181:2181"
+    - "9092:9092"
+
+# 启动命令: sudo docker-compose -f docker-compose-kafka.yml up
+# 停止: 直接中断执行即可.
