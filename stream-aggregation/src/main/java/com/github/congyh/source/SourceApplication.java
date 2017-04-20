@@ -9,7 +9,6 @@ public class SourceApplication {
 
 	@InboundChannelAdapter(value = Source.OUTPUT)
 	public String greet() {
-		System.out.println("reach here");
 		return "hello world " + System.currentTimeMillis();
 	}
 }
