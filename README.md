@@ -26,6 +26,5 @@
 
 TODO
 
-- Hystrix Dashboard不好用.
 - turbine不好用.
 - feign与Hystrix结合不好用.
