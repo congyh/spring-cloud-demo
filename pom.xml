@@ -9,8 +9,18 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>eureka-server</module>
 		<module>config-repo</module>
+		<module>config-server</module>
+		<module>eureka-client</module>
+		<module>eureka-server</module>
+		<module>feign</module>
+		<module>oauth-authorization-server</module>
+		<module>ribbon</module>
+		<module>stream-aggregation</module>
+		<module>stream-sink</module>
+		<module>stream-source</module>
+		<module>turbine</module>
+		<module>zuul</module>
 	</modules>
 
 </project>
